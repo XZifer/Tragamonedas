@@ -16,7 +16,7 @@ namespace Tragamonedas.Aplicacion
             Random random = new Random();
             int index = random.Next(valores.Length);
             Fruta = (TipoFruta)valores.GetValue(index);
-        }
+        } 
         public void Imprimir()
         {
             

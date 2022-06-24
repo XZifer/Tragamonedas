@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Tragamonedas.Aplicacion
 {
-    public class Tragamonedas
+    public class JuegoTragamonedas
     {
         public Casilla[] casillas { get; set; }
 
-        public Tragamonedas()
+        public JuegoTragamonedas()
         {
             casillas = new Casilla[3];
             casillas[0] = new Casilla();
@@ -19,16 +19,16 @@ namespace Tragamonedas.Aplicacion
         }
         public string JalarPalanca()
         {
-            for (int i = 0; i < casillas.Length -1; i++)
+            foreach (Casilla item in casillas)
             {
-                casillas[i].FrutaRandom();
-                casillas[i].Imprimir();
-                System.Threading.Thread.Sleep(30000);
+                item.FrutaRandom();
+                item.Imprimir();
+                //System.Threading.Thread.Sleep(30000);
             }
             if (casillas[0] == casillas[1]
                 && casillas[1] == casillas[2])
             {
-                return "Has Ganado!!!"
+                return "Has Ganado!!!";
             }
             else
             {
