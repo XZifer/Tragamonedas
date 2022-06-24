@@ -25,7 +25,15 @@ namespace Tragamonedas.Aplicacion
                 casillas[i].Imprimir();
                 System.Threading.Thread.Sleep(30000);
             }
-            return " ";
+            if (casillas[0] == casillas[1]
+                && casillas[1] == casillas[2])
+            {
+                return "Has Ganado!!!"
+            }
+            else
+            {
+            return "Tu Pierdes";
+            }
         }
     }
 }
