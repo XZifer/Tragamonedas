@@ -17,5 +17,15 @@ namespace Tragamonedas.Aplicacion
             casillas[1] = new Casilla();    
             casillas [2] = new Casilla();
         }
+        public string JalarPalanca()
+        {
+            for (int i = 0; i < casillas.Length -1; i++)
+            {
+                casillas[i].FrutaRandom();
+                casillas[i].Imprimir();
+                System.Threading.Thread.Sleep(30000);
+            }
+            return " ";
+        }
     }
 }
