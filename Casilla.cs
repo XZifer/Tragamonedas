@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tragamonedas
+namespace Tragamonedas.Aplicacion
 {
     public class Casilla
     {
@@ -20,7 +20,7 @@ namespace Tragamonedas
         public void Imprimir()
         {
             
-            Console.WriteLine(Fruta);
+            Console.WriteLine("Obtuviste: " + Fruta);
         }
     }
 }

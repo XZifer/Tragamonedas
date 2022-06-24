@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luis Fernando\\source\\repos\\XZifer\\Tragamonedas\\Tragamonedas.csproj",
-      "projectName": "Tragamonedas",
-      "projectPath": "C:\\Users\\Luis Fernando\\source\\repos\\XZifer\\Tragamonedas\\Tragamonedas.csproj",
+      "projectUniqueName": "C:\\Users\\Luis Fernando\\source\\repos\\XZifer\\Tragamonedas\\Tragamonedas.Aplicacion.csproj",
+      "projectName": "Tragamonedas.Aplicacion",
+      "projectPath": "C:\\Users\\Luis Fernando\\source\\repos\\XZifer\\Tragamonedas\\Tragamonedas.Aplicacion.csproj",
       "packagesPath": "C:\\Users\\Luis Fernando\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Luis Fernando\\source\\repos\\XZifer\\Tragamonedas\\obj\\",
       "projectStyle": "PackageReference",

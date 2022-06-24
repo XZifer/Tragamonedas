@@ -1,4 +1,4 @@
-﻿using Tragamonedas;
+﻿using Tragamonedas.Aplicacion;
 
 Casilla casilla = new Casilla();
 for (int i = 0; i < 20; i++)
